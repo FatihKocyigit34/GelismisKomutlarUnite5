@@ -15,7 +15,7 @@ public class SS_165_Activitiy extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.ss_165_activity);
-        btn1 = findViewById(R.id.btnSsCalistir165);
+        btn1 = findViewById(R.id.btnSsCalistir165_Topla);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -2,7 +2,7 @@
     <string name="app_name">Gelişmiş Komutlar Unite 5</string>
     <string name="uyg1_isim">Uygulama 1 (Değer Döndürmeyen Metodlar)</string>
     <string name="uyg2_isim">Uygulama 2 (Değer Döndüren Metodlar)</string>
-    <string name="uyg3_isim">Uygulama 3 ()</string>
+    <string name="uyg3_isim">Uygulama 3 (Parametre Alan Metodlar)</string>
     <string name="uyg4_isim">Uygulama 4 ()</string>
     <string name="uyg5_isim">Uygulama 5 ()</string>
     <string name="uyg6_isim">Uygulama 6 ()</string>
@@ -14,5 +14,6 @@
     <string name="uyg12_isim">Uygulama 12 ()</string>
     <string name="uyg13_isim">Uygulama 13 ()</string>
     <string name="ss_165">Sıra Sizde Sayfa 165</string>
+    <string name="ss_168">Sıra Sizde Sayfa 168</string>
     <string name="geri">Geri</string>
 </resources>
