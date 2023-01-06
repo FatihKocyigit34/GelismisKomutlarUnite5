@@ -1,17 +1,17 @@
 <resources>
     <string name="app_name">Gelişmiş Komutlar Unite 5</string>
-    <string name="uyg1_isim">Uygulama 1</string>
-    <string name="uyg2_isim">Uygulama 2</string>
-    <string name="uyg3_isim">Uygulama 3</string>
-    <string name="uyg4_isim">Uygulama 4</string>
-    <string name="uyg5_isim">Uygulama 5</string>
-    <string name="uyg6_isim">Uygulama 6</string>
-    <string name="uyg7_isim">Uygulama 7</string>
-    <string name="uyg8_isim">Uygulama 8</string>
-    <string name="uyg9_isim">Uygulama 9</string>
-    <string name="uyg10_isim">Uygulama 10</string>
-    <string name="uyg11_isim">Uygulama 11</string>
-    <string name="uyg12_isim">Uygulama 12</string>
-    <string name="uyg13_isim">Uygulama 13</string>
+    <string name="uyg1_isim">Uygulama 1 (Değer Döndürmeyen Metodlar)</string>
+    <string name="uyg2_isim">Uygulama 2 ()</string>
+    <string name="uyg3_isim">Uygulama 3 ()</string>
+    <string name="uyg4_isim">Uygulama 4 ()</string>
+    <string name="uyg5_isim">Uygulama 5 ()</string>
+    <string name="uyg6_isim">Uygulama 6 ()</string>
+    <string name="uyg7_isim">Uygulama 7 ()</string>
+    <string name="uyg8_isim">Uygulama 8 ()</string>
+    <string name="uyg9_isim">Uygulama 9 ()</string>
+    <string name="uyg10_isim">Uygulama 10 ()</string>
+    <string name="uyg11_isim">Uygulama 11 ()</string>
+    <string name="uyg12_isim">Uygulama 12 ()</string>
+    <string name="uyg13_isim">Uygulama 13 ()</string>
     <string name="geri">Geri</string>
 </resources>
