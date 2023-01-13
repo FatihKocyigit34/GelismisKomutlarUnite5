@@ -35,10 +35,21 @@ public class Uyg5Activity extends AppCompatActivity {
                 cihaz.cihazGucuKw = cihazGucu;
                 cihaz.gunlukKullanim = gunlukKullanim;
                 cihaz.cihazAdi = cihazAdi;
-                int sonuc = cihaz.AylikKullanim();
-                txtAylik.setText("Aylık Kullandığınız Kw: " + cihaz.AylikKullanim());
-                txtAylik.setVisibility(View.VISIBLE);
+                float sonuc = cihaz.AylikKullanim();
+                float sonucCezali;
+                float fiyat = 0;
+                if (sonuc > 150)
+                {
+                    sonucCezali = sonuc - 150;
+                    fiyat = (float) (sonucCezali * 2.07);
+                }
+                if (sonuc <= 150)
+                {
+                    fiyat += sonuc * 1.37;
+                }
 
+                txtAylik.setText("Aylık Kullandığınız Kw: " + cihaz.AylikKullanim() +" Ödeyeceğiniz Tutar: " + fiyat + " Tl " );
+                txtAylik.setVisibility(View.VISIBLE);
 
             }
         });
