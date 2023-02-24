@@ -27,7 +27,10 @@ public class Uyg7Activity extends AppCompatActivity {
         btnCalistir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+                int yas = Integer.parseInt(txtYas.getText().toString());
+                Personel personel = new Personel();
+                personel.setYas(yas);
+                txtyass.setText(Integer.toString(personel.getYas()));
             }
         });
     }
