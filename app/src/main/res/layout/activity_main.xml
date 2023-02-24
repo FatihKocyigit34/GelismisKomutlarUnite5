@@ -49,22 +49,23 @@
         android:id="@+id/btnUyg7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="311dp"
         android:onClick="btnUyg7"
         android:text="@string/uyg7_isim"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="614dp" />
 
     <Button
         android:id="@+id/btnUyg6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg6"
         android:text="@string/uyg6_isim"
-        app:layout_constraintStart_toStartOf="@+id/btnUyg5"
-        app:layout_constraintTop_toBottomOf="@+id/btnUyg5" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.515" />
 
     <Button
         android:id="@+id/btnUyg3"
@@ -83,13 +84,14 @@
         android:id="@+id/btnUyg5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="244dp"
         android:onClick="btnUyg5"
         android:text="@string/uyg5_isim"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
+        app:layout_constraintVertical_bias="0.445" />
 
     <Button
         android:id="@+id/btnUyg4"
@@ -108,66 +110,55 @@
         android:id="@+id/btnUyg9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg9"
         android:text="@string/uyg9_isim"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUyg8" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="518dp" />
 
     <Button
         android:id="@+id/btnUyg13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="32dp"
         android:onClick="btnUyg13"
         android:text="@string/uyg13_isim"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnUyg12" />
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="673dp" />
 
     <Button
         android:id="@+id/btnUyg12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg12"
         android:text="@string/uyg12_isim"
-        app:layout_constraintStart_toStartOf="@+id/btnUyg13"
-        app:layout_constraintTop_toBottomOf="@+id/btnUyg11" />
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="662dp" />
 
     <Button
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg10"
         android:text="@string/uyg10_isim"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUyg9" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="470dp" />
 
     <Button
         android:id="@+id/btnUyg11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg11"
         android:text="@string/uyg11_isim"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
+        tools:layout_editor_absoluteX="226dp"
+        tools:layout_editor_absoluteY="422dp" />
 
     <Button
         android:id="@+id/btnUyg8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
         android:onClick="btnUyg8"
         android:text="@string/uyg8_isim"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnUyg7" />
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="566dp" />
 
     <Button
         android:id="@+id/button"
@@ -194,5 +185,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.374" />
+
+    <Button
+        android:id="@+id/btnSS_188"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSs188"
+        android:text="Sıra Sizde Sayfa 188"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
