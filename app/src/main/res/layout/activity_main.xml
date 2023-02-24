@@ -53,7 +53,7 @@
         android:text="@string/uyg7_isim"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintHorizontal_bias="0.055"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.655" />
@@ -116,8 +116,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg9"
         android:text="@string/uyg9_isim"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
 
     <Button
         android:id="@+id/btnUyg13"
@@ -125,8 +129,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg13"
         android:text="@string/uyg13_isim"
-        tools:layout_editor_absoluteX="11dp"
-        tools:layout_editor_absoluteY="673dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
 
     <Button
         android:id="@+id/btnUyg12"
@@ -134,8 +142,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg12"
         android:text="@string/uyg12_isim"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="662dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.055"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.997" />
 
     <Button
         android:id="@+id/button10"
@@ -143,8 +155,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg10"
         android:text="@string/uyg10_isim"
-        tools:layout_editor_absoluteX="274dp"
-        tools:layout_editor_absoluteY="408dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
 
     <Button
         android:id="@+id/btnUyg11"
@@ -152,8 +168,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg11"
         android:text="@string/uyg11_isim"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="360dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.926" />
 
     <Button
         android:id="@+id/btnUyg8"
@@ -161,8 +181,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg8"
         android:text="@string/uyg8_isim"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="566dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
 
     <Button
         android:id="@+id/button"
