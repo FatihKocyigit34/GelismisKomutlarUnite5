@@ -6,20 +6,22 @@ public class Ucgen {
     public int kenar3;
 
     public Ucgen(int kenar1, int kenar2, int kenar3) {
-        kenar1 = kenar1;
-        kenar2 = kenar2;
-        kenar3 = kenar3;
+        this.kenar1 = kenar1;
+        this.kenar2 = kenar2;
+        this.kenar3 = kenar3;
     }
 
     public Ucgen(int kenar1, int kenar2) {
-        kenar1 = kenar1;
-        kenar2 = kenar1;
-        kenar3 = kenar2;
+        this.kenar1 = kenar1;
+        this.kenar2 = kenar1;
+        this.kenar3 = kenar2;
     }
 
     public Ucgen(int kenar1) {
-        kenar1 = kenar1;
-        kenar2 = kenar1;
+        this.kenar1 = kenar1;
+        this.kenar2 = kenar1;
+        this.kenar3 = kenar1;
+
     }
 
     public int cevrebul () {

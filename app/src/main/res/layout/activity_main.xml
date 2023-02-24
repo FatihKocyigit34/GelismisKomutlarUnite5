@@ -51,8 +51,12 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg7"
         android:text="@string/uyg7_isim"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="614dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.655" />
 
     <Button
         android:id="@+id/btnUyg6"
@@ -112,8 +116,8 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg9"
         android:text="@string/uyg9_isim"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="518dp" />
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="496dp" />
 
     <Button
         android:id="@+id/btnUyg13"
@@ -139,8 +143,8 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg10"
         android:text="@string/uyg10_isim"
-        tools:layout_editor_absoluteX="225dp"
-        tools:layout_editor_absoluteY="470dp" />
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="408dp" />
 
     <Button
         android:id="@+id/btnUyg11"
@@ -148,8 +152,8 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg11"
         android:text="@string/uyg11_isim"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="422dp" />
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="360dp" />
 
     <Button
         android:id="@+id/btnUyg8"
@@ -157,7 +161,7 @@
         android:layout_height="wrap_content"
         android:onClick="btnUyg8"
         android:text="@string/uyg8_isim"
-        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="566dp" />
 
     <Button
