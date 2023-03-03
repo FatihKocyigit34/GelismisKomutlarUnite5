@@ -40,14 +40,14 @@ public class Uyg8Activity extends AppCompatActivity {
         btnMinibusKapiSayisi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtAracBilgisi.setText(minibus.AracKapiSayisi.toString());
+                txtAracBilgisi.setText(minibus.AracKapiSayisii());
             }
         });
 
         btnMinibusMaksHiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtAracBilgisi.setText(minibus.AracMaksimumHiz.toString());
+                txtAracBilgisi.setText(minibus.AracMaksimumHizz());
             }
         });
 
@@ -68,14 +68,14 @@ public class Uyg8Activity extends AppCompatActivity {
         btnArabaKapiSayisi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtAracBilgisi.setText(araba.AracKapiSayisi);
+                txtAracBilgisi.setText(araba.AracKapiSayisii());
             }
         });
 
         btnArabaMaksHiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                txtAracBilgisi.setText(araba.AracMaksimumHiz);
+                txtAracBilgisi.setText(araba.AracMaksimumHizz());
             }
         });
 
