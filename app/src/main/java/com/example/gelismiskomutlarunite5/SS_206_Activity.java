@@ -9,26 +9,28 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Uyg10Activity extends AppCompatActivity {
-    Button btnAskerAtesEt, btnTankciAtesEt;
+public class SS_206_Activity extends AppCompatActivity {
+    Button btnAskerAtesEt, btnTankciAtesEt, btnTopcuAtesEt;
     TextView txtEmirBekleniyor;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.uyg10_activity);
+        setContentView(R.layout.ss_206_activity);
+
         btnAskerAtesEt = findViewById(R.id.btnAskerAtesEt);
         btnTankciAtesEt = findViewById(R.id.btnTankciAtesEt);
+        btnTopcuAtesEt = findViewById(R.id.btnTopcuAtesEt);
 
         txtEmirBekleniyor = findViewById(R.id.txtEmirBekleniyor);
 
         Asker asker = new Asker();
         Tankci tankci = new Tankci();
+        Topcu topcu = new Topcu();
 
         btnTankciAtesEt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               String mesaj = tankci.atesEt();
+                String mesaj = tankci.atesEt();
                 txtEmirBekleniyor.setText(mesaj);
             }
         });
@@ -40,10 +42,18 @@ public class Uyg10Activity extends AppCompatActivity {
                 txtEmirBekleniyor.setText(mesaj);
             }
         });
-    }
 
+        btnTopcuAtesEt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String mesaj = topcu.atesEt();
+                txtEmirBekleniyor.setText(mesaj);
+            }
+        });
+
+    }
     public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg10Activity.this, MainActivity.class);
+        Intent uyg = new Intent(SS_206_Activity.this, MainActivity.class);
         startActivity(uyg);
     }
 }

@@ -39,6 +39,7 @@
         <activity android:name=".SS_168_Activity" android:label="@string/ss_168"></activity>
         <activity android:name=".SS_173_Activity" android:label="@string/ss_173"></activity>
         <activity android:name=".SS_188_Activity" android:label="Sıra Sizde Sayfa 188"></activity>
+        <activity android:name=".SS_206_Activity" android:label="Sıra Sizde Sayfa 206"></activity>
     </application>
 
 </manifest>

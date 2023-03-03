@@ -1,8 +1,8 @@
 package com.example.gelismiskomutlarunite5;
 
-public class Tankci extends Asker{
+public class Topcu extends Asker{
     @Override
     public String atesEt() {
-        return "Tankçı Ateş Ediyor";
+        return "Topçu Ateş Ediyor";
     }
 }
