@@ -23,31 +23,31 @@ public class SS_206_Activity extends AppCompatActivity {
 
         txtEmirBekleniyor = findViewById(R.id.txtEmirBekleniyor);
 
-        Asker asker = new Asker();
-        Tankci tankci = new Tankci();
-        Topcu topcu = new Topcu();
+      //  Asker asker = new Asker();
+      //  Tankci tankci = new Tankci();
+       // Topcu topcu = new Topcu();
 
         btnTankciAtesEt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String mesaj = tankci.atesEt();
-                txtEmirBekleniyor.setText(mesaj);
+               // String mesaj = tankci.atesEt();
+                // txtEmirBekleniyor.setText(mesaj);
             }
         });
 
         btnAskerAtesEt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String mesaj = asker.atesEt();
-                txtEmirBekleniyor.setText(mesaj);
+               // String mesaj =  asker.atesEt();
+               // txtEmirBekleniyor.setText(mesaj);
             }
         });
 
         btnTopcuAtesEt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String mesaj = topcu.atesEt();
-                txtEmirBekleniyor.setText(mesaj);
+               // String mesaj = topcu.atesEt();
+               // txtEmirBekleniyor.setText(mesaj);
             }
         });
 
