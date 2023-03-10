@@ -16,18 +16,19 @@ import java.util.ArrayList;
 public class Uyg13Activity extends AppCompatActivity {
     Oyuncu oyuncu1;
     Oyuncu oyuncu2;
-    Button btnTopcuOyuncu1, btnTopcuOyuncu2, btnTankciOyuncu1, btnTankciOyuncu2;
+    Button btnTopcuOyuncu1, btnTopcuOyuncu2, btnTankciOyuncu1, btnTankciOyuncu2, btnBaslat;
     EditText editTxtTankciAtesGucu, editTxtTopcuAtesGucu;
-    TextView txtSavasOyunu, txtHasar,txtOyuncu1,txtOyuncu2;
+    TextView txtSavasOyunu, txtHasar, txtOyuncu1, txtOyuncu2;
     ProgressBar progBarOyuncu1, progBarOyuncu2;
     Integer isabet;
     ArrayList<Oyuncu> oyuncular = new ArrayList<>();
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg13_activity);
-        oyuncu1 = new Oyuncu(100,"Oyuncu 1");
-        oyuncu2 = new Oyuncu(100,"Oyuncu 2");
+        oyuncu1 = new Oyuncu(100, "Oyuncu 1");
+        oyuncu2 = new Oyuncu(100, "Oyuncu 2");
         oyuncular.add(oyuncu1);
         oyuncular.add(oyuncu2);
         btnTopcuOyuncu1 = findViewById(R.id.btnTopcuOyuncu1);
@@ -42,6 +43,7 @@ public class Uyg13Activity extends AppCompatActivity {
         progBarOyuncu1 = findViewById(R.id.progressBarOyuncu1);
         progBarOyuncu2 = findViewById(R.id.progressBarOyuncu2);
         txtSavasOyunu = findViewById(R.id.txtSavasOyunu);
+        btnBaslat = findViewById(R.id.btnOyunuBaslat);
 
         //-----------------------------------------------------------------------------
 
@@ -76,17 +78,26 @@ public class Uyg13Activity extends AppCompatActivity {
 
         //-----------------------------------------------------------------------------
 
-        
-        }
+        btnBaslat.setOnClickListener(view -> {
+            oyuncu1.setCan(100);
+            oyuncu2.setCan(100);
+            progBarOyuncu1.setProgress(oyuncu1.getCan());
+            progBarOyuncu2.setProgress(oyuncu2.getCan());
+            txtHasar.setText("0");
+        });
+    }
 
     private void oyuncuKontrolet() {
-        for (Oyuncu oyuncu:oyuncular) {
-            if (oyuncu.getCan()<=0 )
+        for (Oyuncu oyuncu : oyuncular) {
+            if (oyuncu.getCan() <= 0)
                 txtHasar.setText("Oyun Bitti");
         }
-
-    public void btnBack(View view) {
-        Intent uyg = new Intent(Uyg13Activity.this, MainActivity.class);
-        startActivity(uyg);
     }
-}
+
+        public void btnBack (View view) {
+            Intent uyg = new Intent(Uyg13Activity.this, MainActivity.class);
+            startActivity(uyg);
+        }
+    }
+
+
