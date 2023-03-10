@@ -32,14 +32,6 @@ public class Uyg12Activity extends AppCompatActivity {
 
         adapter = new ArrayAdapter<String> (this, android.R.layout.simple_list_item_1, adListesi);
 
-
-        btnEkle.setOnClickListener(view -> {
-            String ad = editTxtAdlar.getText().toString();
-            adListesi.add(ad);
-            adapter.notifyDataSetChanged();
-            editTxtAdlar.getText().clear();
-        });
-
         listAdlar.setOnItemClickListener((adapterView, view, i, l) -> {
             adListesi.remove(i);
             adapter.notifyDataSetChanged();
@@ -48,5 +40,12 @@ public class Uyg12Activity extends AppCompatActivity {
     public void btnBack(View view) {
         Intent uyg = new Intent(Uyg12Activity.this, MainActivity.class);
         startActivity(uyg);
+    }
+
+    public void btnEkle(View view) {
+        String ad = editTxtAdlar.getText().toString();
+        adListesi.add(ad);
+        adapter.notifyDataSetChanged();
+        editTxtAdlar.getText().clear();
     }
 }

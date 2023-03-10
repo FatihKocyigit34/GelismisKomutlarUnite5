@@ -22,6 +22,7 @@
         android:id="@+id/btnEkle_Uyg12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="btnEkle"
         android:text="Ekle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,10 +47,12 @@
 
     <ListView
         android:id="@+id/listAdlar"
-        android:layout_width="409dp"
-        android:layout_height="598dp"
+        android:layout_width="404dp"
+        android:layout_height="338dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
 </androidx.constraintlayout.widget.ConstraintLayout>
