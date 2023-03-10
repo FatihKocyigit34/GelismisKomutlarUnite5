@@ -17,7 +17,7 @@ public class Uyg12Activity extends AppCompatActivity {
     Button btnEkle;
     ListView listAdlar;
     EditText editTxtAdlar;
-    ArrayList<String> isimlerListesi = new ArrayList<>();
+    ArrayList<String> adListesi = new ArrayList<>();
     ArrayAdapter adapter;
 
     @Override
@@ -25,21 +25,23 @@ public class Uyg12Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg12_activity);
 
-        adapter = new ArrayAdapter<> (this, android.R.layout.simple_list_item_1, listAdlar);
         btnEkle = findViewById(R.id.btnEkle_Uyg12);
         editTxtAdlar = findViewById(R.id.editTxtAdlar);
         listAdlar = findViewById(R.id.listAdlar);
         listAdlar.setAdapter(adapter);
 
+        adapter = new ArrayAdapter<String> (this, android.R.layout.simple_list_item_1, adListesi);
+
+
         btnEkle.setOnClickListener(view -> {
             String ad = editTxtAdlar.getText().toString();
-            isimlerListesi.add(ad);
+            adListesi.add(ad);
             adapter.notifyDataSetChanged();
             editTxtAdlar.getText().clear();
         });
 
         listAdlar.setOnItemClickListener((adapterView, view, i, l) -> {
-            isimlerListesi.remove(i);
+            adListesi.remove(i);
             adapter.notifyDataSetChanged();
         });
     }
