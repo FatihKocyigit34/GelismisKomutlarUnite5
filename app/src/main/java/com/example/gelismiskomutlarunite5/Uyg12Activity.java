@@ -27,7 +27,7 @@ public class Uyg12Activity extends AppCompatActivity {
 
         btnEkle = findViewById(R.id.btnEkle_Uyg12);
         editTxtAdlar = findViewById(R.id.editTxtAdlar);
-        listAdlar = findViewById(R.id.listAdlar);
+        listAdlar = findViewById(R.id.listeAdlar);
 
         adapter = new ArrayAdapter<String> (this, android.R.layout.simple_list_item_1, adListesi);
         listAdlar.setAdapter(adapter);
