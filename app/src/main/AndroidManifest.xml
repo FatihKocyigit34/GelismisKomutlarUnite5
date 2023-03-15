@@ -41,6 +41,7 @@
         <activity android:name=".SS_188_Activity" android:label="Sıra Sizde Sayfa 188"></activity>
         <activity android:name=".SS_206_Activity" android:label="Sıra Sizde Sayfa 206"></activity>
         <activity android:name=".SS_214_Activity" android:label="Sıra Sizde Sayfa 214"></activity>
+        <activity android:name=".GoldSoruActivity" android:label="Gold Soru 1 Dört İşlem"></activity>
     </application>
 
 </manifest>
