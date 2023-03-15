@@ -9,8 +9,28 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GoldSoruActivity  extends AppCompatActivity {
-    Button bir, iki, uc, dort, bes, alti, yedi, sekiz, dokuz, sifir, arti, eksi, carpi, bolu, esittir, sil;
+    Button  bir,
+            iki,
+            uc,
+            dort,
+            bes,
+            alti,
+            yedi,
+            sekiz,
+            dokuz,
+            sifir,
+            arti,
+            eksi,
+            carpi,
+            bolu,
+            esittir,
+            sil;
+
+    //----------------------------------------------
+
     TextView txtViewSonuc;
+
+    //----------------------------------------------
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,6 +171,6 @@ public class GoldSoruActivity  extends AppCompatActivity {
         });
 
         //----------------------------------------------
-        
+
     }
 }

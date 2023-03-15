@@ -25,19 +25,20 @@ public class SS_214_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //----------------------------------------------
         setContentView(R.layout.ss_214_activity);
         btnEkleSs214 = findViewById(R.id.btnEkleSs214);
         txtAd = findViewById(R.id.editTxtAdSs214);
         txtNo = findViewById(R.id.editTxtSoyadSs214);
         listAdlar = findViewById(R.id.listeAdlar);
         listNolar = findViewById(R.id.listeNolar);
-
+        //----------------------------------------------
         adAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, adlarListesi);
         noAdapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, nolarListesi);
-
+        //----------------------------------------------
         listAdlar.setAdapter(adAdapter);
         listNolar.setAdapter(noAdapter);
-
+        //----------------------------------------------
         btnEkleSs214.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
